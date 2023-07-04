@@ -1,0 +1,33 @@
+
+Execution context refers to the environment in which JavaScript code is executed. It includes the variables, functions, and other resources available at a particular point in time during the execution of a script. Each time a JavaScript code is run, it is executed in a specific execution context.
+
+To understand execution context, let's break it down into three components: the Variable Environment, the Lexical Environment, and the This Value.
+
+Variable Environment:
+The Variable Environment contains all the variables, function declarations, and function arguments that are accessible within the current scope. It also includes any variables declared within the current execution context. This environment holds the references to all the variables and functions that have been defined.
+
+Lexical Environment:
+The Lexical Environment is similar to the Variable Environment, but it also includes the outer environment reference. The outer environment
+reference points to the Lexical Environment of the parent scope. It helps in variable lookup when a variable is not found in the current scope.
+
+This Value:
+The This Value refers to the object that is currently executing the code. It represents the context in which the code is being 
+executed and provides access to properties and methods of that object.
+
+When a script is executed, the JavaScript engine creates a global execution context, which serves as the root execution context. 
+It contains the global scope variables, functions, and objects. Each time a function is invoked, a new execution context is created for that function, forming a stack of
+execution contexts known as the "execution stack" or "call stack".
+
+FOR THIS EXAMPLE 
+markdown
+Execution Stack
+----------------------
+|    Function C     |
+----------------------
+|    Function B     |
+----------------------
+|    Function A     |
+----------------------
+| Global Execution  |
+|    Context       |
+----------------
