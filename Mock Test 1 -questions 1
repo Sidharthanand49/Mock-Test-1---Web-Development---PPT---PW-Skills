@@ -1,0 +1,18 @@
+Static Position:
+The default position value in CSS is static. In this position, the element follows the normal document flow and is positioned according to its place in the HTML structure.
+
+Fixed Position:
+A fixed position element is positioned relative to the browser window and remains fixed even when the page is scrolled. It does not move when the user scrolls the page.
+
+Sticky Position:
+A sticky position element is positioned based on the user's scroll position. It acts like a combination of rel ative and fixed positions. It is initially positioned according 
+to the normal flow, but once the user scrolls to a certain point, it becomes fixed.
+
+Relative Position:
+A relatively positioned element is positioned relative to its normal position. It can be moved using top, bottom, left, and right properties. Other elements on 
+the page are not affected by a relatively positioned element.
+
+Absolute Position:
+An absolutely positioned element is positioned relative to its closest positioned ancestor or to the initial containing block if there is no positioned ancestor.
+It is taken out of the normal document flow and can overlap other elements.
+
